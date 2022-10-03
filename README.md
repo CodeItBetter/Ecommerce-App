@@ -1,33 +1,24 @@
-# How to fork and clone
-One quick note about cloning this project. If you wish to make commits and push your own code, you'll need to fork the project first. Forking allows you to have your own copy of this repository by adding a duplicate version in your own profile!
+#Ecommerce-App
+<h2>Find the Ecommerce-app link here <span>https://ecommerce-clothing-app.netlify.app/</span></h2>
 
-You can see the fork button in the top right corner of every GitHub project; click it and a copy of the project will be added to your GitHub profile under the same name as the original project.
+<h3>Home Page snapshots</h3>
+<img width="912" alt="home" src="https://user-images.githubusercontent.com/103495547/193649293-39941246-5868-4979-9ba1-a6352929349a.PNG">
 
-<img width="612" alt="github fork" src="https://user-images.githubusercontent.com/10578605/157998981-4bfd1f83-825c-4664-b22d-b2c7d471dc70.png">
+<h3>Shop page snapshots</h3>
+<img width="926" alt="shop" src="https://user-images.githubusercontent.com/103495547/193649346-b23c2ed7-9721-459e-85cc-1875cd0eee4a.PNG">
+<img width="912" alt="shop-pg" src="https://user-images.githubusercontent.com/103495547/193649361-7b7c4cfe-b395-4606-a788-1bf119107a9d.PNG">
 
-After forking the project, simply clone it the way you would from the new forked project in your own GitHub repository and you can commit and push to it freely!
+<h3>SignIn page snapshots</h3>
+<img width="762" alt="signin" src="https://user-images.githubusercontent.com/103495547/193649507-cd715344-30fd-450f-8acb-6f98d0435799.PNG">
 
-# After you fork and clone:
+<h3>CartItems snapshots</h3>
+<img width="239" alt="cart-pg" src="https://user-images.githubusercontent.com/103495547/193649541-4b019300-82f8-4dc7-9de5-10078fee22a8.PNG">
 
-## Install dependencies
-In your terminal after you clone your project down, remember to run either `yarn` or `npm install` to build all the dependencies in the project.
+<h3>Checkout page snapshots</h3>
+<img width="570" alt="checkout-pg" src="https://user-images.githubusercontent.com/103495547/193649565-86b05cc6-7f21-49ef-b8c5-03811f81bb41.PNG">
+<img width="521" alt="checkout-pg-total" src="https://user-images.githubusercontent.com/103495547/193649581-e8793a51-85da-4185-88bb-a9f96b26ae55.PNG">
 
-## Set your firebase config
+<h3>Database snapshots</h3>
+<img width="683" alt="Db-1" src="https://user-images.githubusercontent.com/103495547/193650040-44bf7300-95cc-4a94-af61-7794348d8819.PNG">
+<img width="701" alt="Db-2" src="https://user-images.githubusercontent.com/103495547/193650051-3f4843a3-9e2c-4364-b8e4-9643ea729730.PNG">
 
-Remember to replace the config variable in your firebase.utils.js with your own config object from the firebase dashboard! Navigate to the project settings gear icon > project settings and scroll down to the config code. Copy the object in the code and replace the variable in your cloned code.
-
-<img width="1261" alt="Screen Shot 2022-03-11 at 8 51 22 PM" src="https://user-images.githubusercontent.com/10578605/157999158-10e921cc-9ee5-46f6-a0c5-1ae5686f54f3.png">
-
-# Branching strategy
-
-After forking this repository and cloning it down, you will have access to all the lesson branches with code at different checkpoints throughout the course. If for some reason you need to work from the codebase at one of these lesson branch checkpoints, follow these steps:
-
-1. Checkout to the lesson-# (let's use lesson-15 as an example) branch
-```
-git checkout lesson-15
-```
-2. Branch off from lesson-15. This will create a new branch where the code of lesson-15 is the basis for your new branch. You can name your new branch whatever you want! Let's say we use my-main-branch as the name.
-```
-git checkout -b my-main-branch
-```
-3. Now you can just code on this branch, push code from this branch up to your forked repo etc. The main thing to remember is that you want to be on this branch for your own code, so remember what you named this branch!
